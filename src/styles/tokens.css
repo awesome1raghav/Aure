@@ -1,0 +1,52 @@
+/*
+  AURE colour system — "from ash to ember"
+  ------------------------------------------------------------------
+  The palette tells the founder's story: cool, desaturated ash/steel for
+  self-doubt → warm bone for clarity → ember for confidence.
+
+  60 / 30 / 10 rule
+    60  carbon  — warm off-black ground. Black reads as authority, mystery,
+                  luxury; warm (not blue) black feels expensive, not techy.
+    30  bone    — warm off-white text & surfaces. Clarity and honesty without
+                  the clinical feel of pure #fff.
+    10  ember   — red-orange, the highest-arousal hue: energy, confidence,
+                  urgency. Reserved for action (Buy now, active states) and
+                  the words that matter.
+  Steel blue-grey is ember's complement — used at low saturation for cool
+  rim light and "doubt" moments so the ember always pops.
+*/
+:root {
+  --carbon: #0b0a09;
+  --soot: #121110;
+  --graphite: #1b1917;
+  --iron: #26231f;
+  --line: rgba(237, 231, 220, 0.1);
+  --line-strong: rgba(237, 231, 220, 0.22);
+
+  --ash: #8e8a83;
+  --ash-dim: #5d5954;
+  --steel: #6f8799;
+  --bone: #ede7dc;
+  --bone-dim: #cfc8bb;
+
+  --ember: #ff4d1f;
+  --ember-hot: #ff7440;
+  --ember-deep: #c2350f;
+  --oxblood: #4a1414;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.76, 0, 0.24, 1);
+
+  --gutter: clamp(16px, 2.4vw, 36px);
+  --header-h: 64px;
+
+  --fs-micro: 11px;
+  --fs-small: 13px;
+  --fs-body: 15px;
+  --fs-lead: clamp(18px, 1.6vw, 22px);
+  --fs-h3: clamp(24px, 2.6vw, 36px);
+  --fs-h2: clamp(40px, 6vw, 92px);
+  --fs-h1: clamp(64px, 15vw, 260px);
+
+  color-scheme: dark;
+}
